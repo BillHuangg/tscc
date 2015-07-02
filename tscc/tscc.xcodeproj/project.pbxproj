@@ -14,6 +14,21 @@
 		A9B00DCC1B43AC2B00B534BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B00DCB1B43AC2B00B534BB /* Images.xcassets */; };
 		A9B00DCF1B43AC2B00B534BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9B00DCD1B43AC2B00B534BB /* LaunchScreen.xib */; };
 		A9B00DDB1B43AC2B00B534BB /* tsccTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B00DDA1B43AC2B00B534BB /* tsccTests.m */; };
+		A9DADE421B4522120059F49A /* FaceppAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE291B4522120059F49A /* FaceppAPI.m */; };
+		A9DADE431B4522120059F49A /* FaceppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE2C1B4522120059F49A /* FaceppClient.m */; };
+		A9DADE441B4522120059F49A /* FaceppDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE2E1B4522120059F49A /* FaceppDetection.m */; };
+		A9DADE451B4522120059F49A /* FaceppFaceset.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE301B4522120059F49A /* FaceppFaceset.m */; };
+		A9DADE461B4522120059F49A /* FaceppGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE321B4522120059F49A /* FaceppGroup.m */; };
+		A9DADE471B4522120059F49A /* FaceppGrouping.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE341B4522120059F49A /* FaceppGrouping.m */; };
+		A9DADE481B4522120059F49A /* FaceppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE361B4522120059F49A /* FaceppInfo.m */; };
+		A9DADE491B4522120059F49A /* FaceppPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE381B4522120059F49A /* FaceppPerson.m */; };
+		A9DADE4A1B4522120059F49A /* FaceppRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE3A1B4522120059F49A /* FaceppRecognition.m */; };
+		A9DADE4B1B4522120059F49A /* FaceppTrainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE3C1B4522120059F49A /* FaceppTrainer.m */; };
+		A9DADE4C1B4522120059F49A /* FaceppError.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE3F1B4522120059F49A /* FaceppError.m */; };
+		A9DADE4D1B4522120059F49A /* FaceppResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE411B4522120059F49A /* FaceppResult.m */; };
+		A9DADE501B4532230059F49A /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE4F1B4532230059F49A /* Dot.m */; };
+		A9DADE521B4532F10059F49A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DADE511B4532F10059F49A /* CoreImage.framework */; };
+		A9DADE551B4533910059F49A /* LankmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADE541B4533910059F49A /* LankmarkView.m */; };
 		CE9B7E3BF8E9130ABECE9BA0 /* libPods-tscc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA16397C5766021A301826E2 /* libPods-tscc.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +58,36 @@
 		A9B00DD41B43AC2B00B534BB /* tsccTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tsccTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B00DD91B43AC2B00B534BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9B00DDA1B43AC2B00B534BB /* tsccTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tsccTests.m; sourceTree = "<group>"; };
+		A9DADDDC1B451D030059F49A /* FaceKey+Secret.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceKey+Secret.h"; sourceTree = "<group>"; };
+		A9DADE281B4522120059F49A /* FaceppAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppAPI.h; sourceTree = "<group>"; };
+		A9DADE291B4522120059F49A /* FaceppAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppAPI.m; sourceTree = "<group>"; };
+		A9DADE2B1B4522120059F49A /* FaceppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppClient.h; sourceTree = "<group>"; };
+		A9DADE2C1B4522120059F49A /* FaceppClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppClient.m; sourceTree = "<group>"; };
+		A9DADE2D1B4522120059F49A /* FaceppDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppDetection.h; sourceTree = "<group>"; };
+		A9DADE2E1B4522120059F49A /* FaceppDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppDetection.m; sourceTree = "<group>"; };
+		A9DADE2F1B4522120059F49A /* FaceppFaceset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppFaceset.h; sourceTree = "<group>"; };
+		A9DADE301B4522120059F49A /* FaceppFaceset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppFaceset.m; sourceTree = "<group>"; };
+		A9DADE311B4522120059F49A /* FaceppGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppGroup.h; sourceTree = "<group>"; };
+		A9DADE321B4522120059F49A /* FaceppGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppGroup.m; sourceTree = "<group>"; };
+		A9DADE331B4522120059F49A /* FaceppGrouping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppGrouping.h; sourceTree = "<group>"; };
+		A9DADE341B4522120059F49A /* FaceppGrouping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppGrouping.m; sourceTree = "<group>"; };
+		A9DADE351B4522120059F49A /* FaceppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppInfo.h; sourceTree = "<group>"; };
+		A9DADE361B4522120059F49A /* FaceppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppInfo.m; sourceTree = "<group>"; };
+		A9DADE371B4522120059F49A /* FaceppPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppPerson.h; sourceTree = "<group>"; };
+		A9DADE381B4522120059F49A /* FaceppPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppPerson.m; sourceTree = "<group>"; };
+		A9DADE391B4522120059F49A /* FaceppRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppRecognition.h; sourceTree = "<group>"; };
+		A9DADE3A1B4522120059F49A /* FaceppRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppRecognition.m; sourceTree = "<group>"; };
+		A9DADE3B1B4522120059F49A /* FaceppTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppTrainer.h; sourceTree = "<group>"; };
+		A9DADE3C1B4522120059F49A /* FaceppTrainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppTrainer.m; sourceTree = "<group>"; };
+		A9DADE3E1B4522120059F49A /* FaceppError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppError.h; sourceTree = "<group>"; };
+		A9DADE3F1B4522120059F49A /* FaceppError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppError.m; sourceTree = "<group>"; };
+		A9DADE401B4522120059F49A /* FaceppResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppResult.h; sourceTree = "<group>"; };
+		A9DADE411B4522120059F49A /* FaceppResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppResult.m; sourceTree = "<group>"; };
+		A9DADE4E1B4532230059F49A /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		A9DADE4F1B4532230059F49A /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		A9DADE511B4532F10059F49A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A9DADE531B4533910059F49A /* LankmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LankmarkView.h; sourceTree = "<group>"; };
+		A9DADE541B4533910059F49A /* LankmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LankmarkView.m; sourceTree = "<group>"; };
 		FA16397C5766021A301826E2 /* libPods-tscc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tscc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -51,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9DADE521B4532F10059F49A /* CoreImage.framework in Frameworks */,
 				CE9B7E3BF8E9130ABECE9BA0 /* libPods-tscc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +123,7 @@
 		8C59685E94D41D1BD52CB530 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9DADE511B4532F10059F49A /* CoreImage.framework */,
 				FA16397C5766021A301826E2 /* libPods-tscc.a */,
 			);
 			name = Frameworks;
@@ -105,10 +152,13 @@
 		A9B00DBD1B43AC2A00B534BB /* tscc */ = {
 			isa = PBXGroup;
 			children = (
+				A9DADDDB1B451CCA0059F49A /* utility */,
+				A9DADDD81B451B770059F49A /* lib */,
+				A9DADDD71B43C27D0059F49A /* controller */,
+				A9DADDD61B43C2770059F49A /* model */,
+				A9DADDD51B43C26D0059F49A /* view */,
 				A9B00DC21B43AC2B00B534BB /* AppDelegate.h */,
 				A9B00DC31B43AC2B00B534BB /* AppDelegate.m */,
-				A9B00DC51B43AC2B00B534BB /* ViewController.h */,
-				A9B00DC61B43AC2B00B534BB /* ViewController.m */,
 				A9B00DC81B43AC2B00B534BB /* Main.storyboard */,
 				A9B00DCB1B43AC2B00B534BB /* Images.xcassets */,
 				A9B00DCD1B43AC2B00B534BB /* LaunchScreen.xib */,
@@ -141,6 +191,96 @@
 				A9B00DD91B43AC2B00B534BB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9DADDD51B43C26D0059F49A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		A9DADDD61B43C2770059F49A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A9DADE4E1B4532230059F49A /* Dot.h */,
+				A9DADE4F1B4532230059F49A /* Dot.m */,
+				A9DADE531B4533910059F49A /* LankmarkView.h */,
+				A9DADE541B4533910059F49A /* LankmarkView.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A9DADDD71B43C27D0059F49A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9B00DC61B43AC2B00B534BB /* ViewController.m */,
+				A9B00DC51B43AC2B00B534BB /* ViewController.h */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		A9DADDD81B451B770059F49A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A9DADE271B4522120059F49A /* FaceppSDK_ARC */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		A9DADDDB1B451CCA0059F49A /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				A9DADDDC1B451D030059F49A /* FaceKey+Secret.h */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		A9DADE271B4522120059F49A /* FaceppSDK_ARC */ = {
+			isa = PBXGroup;
+			children = (
+				A9DADE281B4522120059F49A /* FaceppAPI.h */,
+				A9DADE291B4522120059F49A /* FaceppAPI.m */,
+				A9DADE2A1B4522120059F49A /* FaceppAPISource */,
+				A9DADE3D1B4522120059F49A /* FaceppResult */,
+			);
+			path = FaceppSDK_ARC;
+			sourceTree = "<group>";
+		};
+		A9DADE2A1B4522120059F49A /* FaceppAPISource */ = {
+			isa = PBXGroup;
+			children = (
+				A9DADE2B1B4522120059F49A /* FaceppClient.h */,
+				A9DADE2C1B4522120059F49A /* FaceppClient.m */,
+				A9DADE2D1B4522120059F49A /* FaceppDetection.h */,
+				A9DADE2E1B4522120059F49A /* FaceppDetection.m */,
+				A9DADE2F1B4522120059F49A /* FaceppFaceset.h */,
+				A9DADE301B4522120059F49A /* FaceppFaceset.m */,
+				A9DADE311B4522120059F49A /* FaceppGroup.h */,
+				A9DADE321B4522120059F49A /* FaceppGroup.m */,
+				A9DADE331B4522120059F49A /* FaceppGrouping.h */,
+				A9DADE341B4522120059F49A /* FaceppGrouping.m */,
+				A9DADE351B4522120059F49A /* FaceppInfo.h */,
+				A9DADE361B4522120059F49A /* FaceppInfo.m */,
+				A9DADE371B4522120059F49A /* FaceppPerson.h */,
+				A9DADE381B4522120059F49A /* FaceppPerson.m */,
+				A9DADE391B4522120059F49A /* FaceppRecognition.h */,
+				A9DADE3A1B4522120059F49A /* FaceppRecognition.m */,
+				A9DADE3B1B4522120059F49A /* FaceppTrainer.h */,
+				A9DADE3C1B4522120059F49A /* FaceppTrainer.m */,
+			);
+			path = FaceppAPISource;
+			sourceTree = "<group>";
+		};
+		A9DADE3D1B4522120059F49A /* FaceppResult */ = {
+			isa = PBXGroup;
+			children = (
+				A9DADE3E1B4522120059F49A /* FaceppError.h */,
+				A9DADE3F1B4522120059F49A /* FaceppError.m */,
+				A9DADE401B4522120059F49A /* FaceppResult.h */,
+				A9DADE411B4522120059F49A /* FaceppResult.m */,
+			);
+			path = FaceppResult;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,9 +418,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9DADE441B4522120059F49A /* FaceppDetection.m in Sources */,
+				A9DADE4B1B4522120059F49A /* FaceppTrainer.m in Sources */,
+				A9DADE4D1B4522120059F49A /* FaceppResult.m in Sources */,
+				A9DADE491B4522120059F49A /* FaceppPerson.m in Sources */,
 				A9B00DC71B43AC2B00B534BB /* ViewController.m in Sources */,
+				A9DADE481B4522120059F49A /* FaceppInfo.m in Sources */,
+				A9DADE4C1B4522120059F49A /* FaceppError.m in Sources */,
+				A9DADE501B4532230059F49A /* Dot.m in Sources */,
+				A9DADE451B4522120059F49A /* FaceppFaceset.m in Sources */,
 				A9B00DC41B43AC2B00B534BB /* AppDelegate.m in Sources */,
+				A9DADE461B4522120059F49A /* FaceppGroup.m in Sources */,
+				A9DADE431B4522120059F49A /* FaceppClient.m in Sources */,
+				A9DADE551B4533910059F49A /* LankmarkView.m in Sources */,
+				A9DADE471B4522120059F49A /* FaceppGrouping.m in Sources */,
 				A9B00DC11B43AC2A00B534BB /* main.m in Sources */,
+				A9DADE4A1B4522120059F49A /* FaceppRecognition.m in Sources */,
+				A9DADE421B4522120059F49A /* FaceppAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

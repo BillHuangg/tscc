@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FaceppAPI.h"
+#import "FaceKey+Secret.h"
+#import "LankmarkView.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *imgView;
+@property (strong, nonatomic) LankmarkView *markLayerView;
 
 @end
 

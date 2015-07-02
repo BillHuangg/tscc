@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8790D138-D8F1-46FF-8A80-9039985FE7FC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tscc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>40AD4D8236059858AC934661630F495E76881FBA</key>
+		<string>https://github.com/BillHuangg/tscc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tscc/tscc.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>40AD4D8236059858AC934661630F495E76881FBA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BillHuangg/tscc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>40AD4D8236059858AC934661630F495E76881FBA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>40AD4D8236059858AC934661630F495E76881FBA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tscc</string>
+		</dict>
+	</array>
+</dict>
+</plist>
